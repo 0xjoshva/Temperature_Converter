@@ -1,0 +1,133 @@
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+@import url('http://fonts.cdnfonts.com/css/gigantic-fs');
+
+body {
+	line-height: 1;
+font-family: 'Gigantic FS', sans-serif !important;}
+
+h1{
+    /* font-family: 'Monument Extended', sans-serif; */
+    font-family: 'Gigantic FS', sans-serif;
+                                                
+    font-weight: 900;
+                                                
+}
+
+h1 span{
+padding: 15px;
+border-radius: 20px 20px;
+/* background-color: #1DB954 ; */
+background-image: linear-gradient( 109.6deg,  rgba(33,25,180,1) 11.2%, rgba(253,29,29,1) 55.2%, rgba(252,176,69,1) 91.1% );
+transition: all 0.1s;
+}
+#calc-header{
+  background: #0d0d0d !important;
+  color: white;
+  padding: 0px 0px 0px 0px;
+}
+
+#calculator{
+    background-color: #0d0d0d;
+    height: 100vh;
+}
+
+#block{
+    border-radius: 30px 30px;
+    background-color: rgb(19, 19, 19);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.slidecontainer {
+  width: 620px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #1DB954;
+
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #1DB954;
+  cursor: pointer;
+}
+
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: all 0.4s;
+  width: fit-content !important;
+  font-size: 30px;
+}
+
+#convert:hover{
+    background-color: #1db954a4;
+}
+
+#convert{
+      background-color: #1DB954;
+}
+
+input[type=text] {
+  width: 250px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 20px 20px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7% !important;
+}
+
+/* .arrow span{
+    color: white;
+    font-size: 200px;
+    margin: 0;
+} */
